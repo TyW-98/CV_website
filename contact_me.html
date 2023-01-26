@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h2>Contact Details📠</h2>
+    <h4>Address: Number 58, Random apartment, 7 Random road London W1 45DA</h4>
+    <h4>PH Number: 07894754912</h4>
+    <h4>Email: Random.email@email.com</h4>
+
+    <hr size ="3" color="#000">
+    <form action="mailto:random.email@email.com" method="POST" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" name="UserName" value=""></td>
+            </tr>
+            <tr>
+                <td><label>Email Address:</label></td>
+                <td><input type="email" name="UserEmail" value=""></td>
+            </tr>
+            <tr>
+                <td><label>Meeting Date:</label></td>
+                <td><input type="date" name="Meeting Date" value=""></td>
+            </tr>
+            <tr>
+                <td>
+                    Meeting Method
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type = "radio" id="Zoom" name="Meeting Method" value="Zoom">
+                                <label for="Zoom">Zoom</label>
+                            </td>
+                            <td>
+                                <input type = "radio" id="In-Person" name="Meeting Method" value="In Person">
+                                <label for="In Person">In Person</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type = "radio" id="Skype" name="Meeting Method" value="Skype">
+                                <label for="Skype">Skype</label>
+                            </td>
+                            <td>
+                                <input type = "radio" id="Teams" name="Meeting Method" value="Teams">
+                                <label for="Teams">Teams</label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Upload your script here:</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label>Describe the problem</label></td>
+                <td><textarea rows="10" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="right">
+                    <input type = "submit" value="Submit">
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <hr size ="3" color="#000">
+</body>
+</html>
