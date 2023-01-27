@@ -12,9 +12,19 @@ hr  {
 }
 
 div {
-    background-color: rgb(66, 137, 230);
+    background-color: rgb(47, 64, 212);
     border-style: none;
     border-bottom-style: double;
     height: 50px;
     border-bottom-color:cadetblue;
+}
+
+h1 {
+    font-family: monospace;
+    color: #0fb0c5;
+}
+
+h3 {
+    font-family: monospace;
+    color: #0fb0c5;
 }
